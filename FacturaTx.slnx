@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/0 - Web/">
+    <Project Path="FacturaTx.Web/FacturaTx.Web.csproj" />
+  </Folder>
+  <Folder Name="/1 - Domain/">
+    <Project Path="FacturaTx.Domain/FacturaTx.Domain.csproj" />
+  </Folder>
+  <Folder Name="/2 - Data/">
+    <Project Path="FacturaTx.Data/FacturaTx.Data.csproj" />
+  </Folder>
+</Solution>
