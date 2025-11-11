@@ -23,6 +23,7 @@ namespace FacturaTx.Domain.Entidades.Institucional
         public string? Endereco { get; set; }
         public string? Website { get; set; }
         public string ProvinciaId { get; set; }
+        public string UsuarioProprietarioId { get; set; }
 
         public Provincia Provincia { get; set; }
         public List<Cliente> Clientes { get; set; } = new List<Cliente>();
@@ -33,6 +34,8 @@ namespace FacturaTx.Domain.Entidades.Institucional
         public List<Artigo> Produtos { get; set; } = new List<Artigo>();
         public List<ContaBancaria> Contas { get; set; } = new List<ContaBancaria>();
         public List<CategoriaArtigo> CategoriaArtigos { get; set; } = new List<CategoriaArtigo>();
+        public Usuario UsuarioProprietario { get; set; }
+
 
     }
 }
